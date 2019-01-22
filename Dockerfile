@@ -29,6 +29,6 @@ RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor 
    chown root:root /etc/apt/trusted.gpg.d/microsoft.asc.gpg && \
    chown root:root /etc/apt/sources.list.d/microsoft-prod.list && \
    apt-get update && \
-   apt-get -y install dotnet-sdk-2.1
+   apt-get -y install dotnet-sdk-2.2
 
 
