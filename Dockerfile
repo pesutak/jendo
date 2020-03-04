@@ -17,7 +17,7 @@ RUN apt-get update && \
    apt-get -y install docker-ce && \
    usermod -aG docker jenkins
 
-RUN curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - && \
+RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && \
    apt-get install -y nodejs
 
 RUN npm i -g @angular/cli
@@ -29,6 +29,6 @@ RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor 
    chown root:root /etc/apt/trusted.gpg.d/microsoft.asc.gpg && \
    chown root:root /etc/apt/sources.list.d/microsoft-prod.list && \
    apt-get update && \
-   apt-get -y install dotnet-sdk-2.2
+   apt-get -y install dotnet-sdk-3.1
 
 

@@ -2,8 +2,8 @@
 contains:
 - [Jenkins](https://jenkins.io/) (lts)
 - [Docker CE](https://docs.docker.com/install/) (latest)
-- [Node.js](https://nodejs.org/en/) 8.x 
-- [.NET Core 2.1 SDK](https://www.microsoft.com/net/download?initial-os=linux)
+- [Node.js](https://nodejs.org/en/) 12.x 
+- [.NET Core 3.1 SDK](https://www.microsoft.com/net/download?initial-os=linux)
 - [Angular CLI](https://cli.angular.io/) (latest)
 
 to run, just type:
